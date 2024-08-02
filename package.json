@@ -1,0 +1,20 @@
+{
+  "name": "create-file-command",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "create-file": "node create-file.js"
+  },
+  "bin": {
+    "create-file": "./create-file.js"
+  },
+  "keywords": [],
+  "author": "Richard Holyoak",
+  "license": "ISC",
+  "description": "Create a js file and add a JSDoc header comment.",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "simple-git": "^3.25.0",
+    "yargs": "^17.7.2"
+  }
+}
